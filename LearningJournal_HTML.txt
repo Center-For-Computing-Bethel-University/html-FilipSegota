@@ -28,3 +28,4 @@ git checkout -b 'name' - create 'name' branch
 git branch - show branches
 pull request is request for changes on GitHub
 git pull origin master - pull the changes from the GitHub
+all the others linux commands such as cd, ls, touch, rm, and such
