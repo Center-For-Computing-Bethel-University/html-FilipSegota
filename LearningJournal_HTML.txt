@@ -1,2 +1,30 @@
 HTML Learning Journal
 
+1) Git and GitHub
+Before I start learning HTML, I wanted to learn a little bit about Git and GitHub. I used two youtube videos for this:
+
+Git, GitHub, & GitHub Desktop for beginners
+https://www.youtube.com/watch?v=8Dd7KRpKeaE
+Git is a version control system. It enables me to revert changes and that can be very useful in any type of coding, especially web programming. I also like learning about Git and GitHub, as it is a necessary tool in many jobs in this profession.
+
+Git - Version control system
+GitHub - Website for hosting Git repositories
+GitHub Desktop - GUI software tool with simplified Git commands
+Git Bash - Shell tool for Git command line
+
+This video explains the use of GitHub Desktop. I will be using Git Bash and command line for these homeworks.
+
+Git Tutorial For Dummies
+https://www.youtube.com/watch?v=mJ-qvsxPHpY
+I'll be using a lot of Git commands that are explained in this video:
+git init - initialize Git repository
+git add - save changes (git add index.html i.e or git add . (save everything))
+git commit -m 'message' - commit the changes
+git log - log of changes
+git checkout [commit id] - go back to that commit
+git remote add origin - connect local repository to the one on GitHub
+git push -u origin main - push commits to the GitHub
+git checkout -b 'name' - create 'name' branch
+git branch - show branches
+pull request is request for changes on GitHub
+git pull origin master - pull the changes from the GitHub
