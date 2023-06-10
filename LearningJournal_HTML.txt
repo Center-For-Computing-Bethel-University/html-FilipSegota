@@ -27,6 +27,7 @@ git push -u origin main - push commits to the GitHub
 git checkout -b 'name' - create 'name' branch
 git checkout 'name' - switch to a branch
 git branch -d 'name' - delete 'name' branch
+git push origin --delete 'name' - delete remote 'name' branch 
 git branch - show branches
 pull request is request for changes on GitHub
 git pull origin main - pull the changes from the GitHub
