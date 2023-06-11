@@ -326,13 +326,34 @@ Class & Id:
 
 Layout:
     <header> - Defines a header for a document or a section
+        one or more heading elements (<h1> - <h6>)
+        logo or icon
+        authorship information
     <nav> - Defines a set of navigation links
     <section> - Defines a section in a document
+        Chapters
+        Introduction
+        News items
+        Contact information
     <article> - Defines an independent, self-contained content
+        Forum posts
+        Blog posts
+        User comments
+        Product cards
+        Newspaper articles
     <aside> - Defines content aside from the content (like a sidebar)
     <footer> - Defines a footer for a document or a section
+        authorship information
+        copyright information
+        contact information
+        sitemap
+        back to top links
+        related documents
     <details> - Defines additional details that the user can open and close on demand
     <summary> - Defines a heading for the <details> element
+    <figure> - specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
+    <figcaption> - defines a caption for a <figure> element. The <figcaption> element can be placed as the first or as the last child of a <figure> element.
+    <time> - defines date/time
 
     Layout Techniques:
         CSS framework
