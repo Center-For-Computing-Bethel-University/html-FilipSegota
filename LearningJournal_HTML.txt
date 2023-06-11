@@ -126,10 +126,48 @@ Attributes:
     title - title
 
 Standards:
-    lowercase Attributes
     It's better to use relative path
-    Always use quote for attribute values
     In some situations, when the attribute value itself contains double quotes, it is necessary to use single quotes
+    Always Declare Document Type
+    Use Lowercase Element Names
+    Close All HTML Elements
+    Use Lowercase Attribute Names
+    Always Quote Attribute Values
+    Always Specify alt, width, and height for Images
+    Spaces and Equal Signs
+        <link rel="stylesheet" href="styles.css">
+    Avoid Long Code Lines
+    Blank Lines and Indentation
+        Do not add blank lines, spaces, or indentations without a reason.
+
+        For readability, add blank lines to separate large or logical code blocks.
+
+        For readability, add two spaces of indentation. Do not use the tab key.
+    Never Skip the <title> Element
+        The <title> element:
+            defines a title in the browser toolbar
+            provides a title for the page when it is added to favorites
+            displays a title for the page in search-engine results
+    Always add <html>, <body>, and <head> tags
+    Close Empty HTML Elements
+        If you expect XML/XHTML software to access your page, keep the closing slash (/), because it is required in XML and XHTML - <meta charset="utf-8" />
+    Add the lang Attribute
+    Add Meta data
+    Setting The Viewport
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    Add comments where needed
+    Using Style Sheets
+        <link rel="stylesheet" href="styles.css">
+    Long CSS rules should be written over multiple lines
+    Loading JavaScript in HTML
+        <script src="myscript.js">
+    Use Lower Case File Names
+    File Extensions
+        HTML files should have a .html extension (.htm is allowed).
+
+        CSS files should have a .css extension.
+
+        JavaScript files should have a .js extension.
 
 Style:
     <tagname style="property:value;">
