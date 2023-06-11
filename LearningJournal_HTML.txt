@@ -126,10 +126,48 @@ Attributes:
     title - title
 
 Standards:
-    lowercase Attributes
     It's better to use relative path
-    Always use quote for attribute values
     In some situations, when the attribute value itself contains double quotes, it is necessary to use single quotes
+    Always Declare Document Type
+    Use Lowercase Element Names
+    Close All HTML Elements
+    Use Lowercase Attribute Names
+    Always Quote Attribute Values
+    Always Specify alt, width, and height for Images
+    Spaces and Equal Signs
+        <link rel="stylesheet" href="styles.css">
+    Avoid Long Code Lines
+    Blank Lines and Indentation
+        Do not add blank lines, spaces, or indentations without a reason.
+
+        For readability, add blank lines to separate large or logical code blocks.
+
+        For readability, add two spaces of indentation. Do not use the tab key.
+    Never Skip the <title> Element
+        The <title> element:
+            defines a title in the browser toolbar
+            provides a title for the page when it is added to favorites
+            displays a title for the page in search-engine results
+    Always add <html>, <body>, and <head> tags
+    Close Empty HTML Elements
+        If you expect XML/XHTML software to access your page, keep the closing slash (/), because it is required in XML and XHTML - <meta charset="utf-8" />
+    Add the lang Attribute
+    Add Meta data
+    Setting The Viewport
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    Add comments where needed
+    Using Style Sheets
+        <link rel="stylesheet" href="styles.css">
+    Long CSS rules should be written over multiple lines
+    Loading JavaScript in HTML
+        <script src="myscript.js">
+    Use Lower Case File Names
+    File Extensions
+        HTML files should have a .html extension (.htm is allowed).
+
+        CSS files should have a .css extension.
+
+        JavaScript files should have a .js extension.
 
 Style:
     <tagname style="property:value;">
@@ -326,13 +364,34 @@ Class & Id:
 
 Layout:
     <header> - Defines a header for a document or a section
+        one or more heading elements (<h1> - <h6>)
+        logo or icon
+        authorship information
     <nav> - Defines a set of navigation links
     <section> - Defines a section in a document
+        Chapters
+        Introduction
+        News items
+        Contact information
     <article> - Defines an independent, self-contained content
+        Forum posts
+        Blog posts
+        User comments
+        Product cards
+        Newspaper articles
     <aside> - Defines content aside from the content (like a sidebar)
     <footer> - Defines a footer for a document or a section
+        authorship information
+        copyright information
+        contact information
+        sitemap
+        back to top links
+        related documents
     <details> - Defines additional details that the user can open and close on demand
     <summary> - Defines a heading for the <details> element
+    <figure> - specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
+    <figcaption> - defines a caption for a <figure> element. The <figcaption> element can be placed as the first or as the last child of a <figure> element.
+    <time> - defines date/time
 
     Layout Techniques:
         CSS framework
