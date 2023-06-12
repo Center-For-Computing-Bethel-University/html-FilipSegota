@@ -17,6 +17,9 @@ body {
 
 .menu {
     background-color: blue;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
 }
 
 .main {
@@ -25,4 +28,34 @@ body {
 
 .footer {
     background-color: red;
+}
+
+.menu-list {
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-grow: 1;
+}
+
+.menu-list a {
+    color: purple;
+}
+
+.menu-list li:hover {
+    background-color: brown;
+}
+
+.menu-li {
+    padding: 5px 14px;
+}
+
+.menu-item {
+    background-color: gray;
+}
+
+.menu-link {
+    text-decoration: none;
 }
