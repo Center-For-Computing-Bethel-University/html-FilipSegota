@@ -46,6 +46,7 @@ html {
 
 .menu-list a.menu-link-active {
     background-color: gray;
+    pointer-events: none;
 }
 
 .menu-list a:hover {
