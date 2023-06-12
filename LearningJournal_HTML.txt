@@ -32,6 +32,7 @@ git checkout 'name' - switch to a branch
 git branch -d 'name' - delete 'name' branch
 git push origin --delete 'name' - delete remote 'name' branch 
 git branch - show branches
+git merge 'branch name to merge'
 pull request is request for changes on GitHub
 git pull origin main - pull the changes from the GitHub
 git status - check the status of the repository
