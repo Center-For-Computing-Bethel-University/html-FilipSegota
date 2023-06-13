@@ -62,7 +62,34 @@ nav {
 main {
     background-color: #e0e1dd;
     color: #0d1b2a;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.card {
+    height: 325px;
+    width: 275px;
+    margin: 20px;
+    background-color: #0d1b2a;
+    color: #e0e1dd;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+}
+
+.card-img {
+    height: 40%;
+    width: 40%;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.card-container {}
 
 footer {
     background-color: #0d1b2a;
