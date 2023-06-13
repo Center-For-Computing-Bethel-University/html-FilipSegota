@@ -27,10 +27,10 @@ git log - log of commits
 git checkout [commit id] - go back to that commit
 git remote add origin [github SSH/HTTPS] - connect local repository to the one on GitHub
 git push -u origin [branch] - push commits to the GitHub
-git checkout -b 'name' - create 'name' branch
-git checkout 'name' - switch to a branch
-git branch -d 'name' - delete 'name' branch
-git push origin --delete 'name' - delete remote 'name' branch 
+git checkout -b [name] - create name branch
+git checkout [name] - switch to a name branch
+git branch -d [name] - delete name branch
+git push origin --delete [name] - delete remote name branch 
 git branch - show branches
 git merge 'branch name to merge into the current one'
 pull request is request for changes on GitHub
@@ -486,7 +486,7 @@ Forms:
         <input type="week"> - allows the user to select a week and year
 
     Input restrictions:
-    
+
         checked	- Specifies that an input field should be pre-selected when the page loads (for type="checkbox" or type="radio")
 
         disabled - Specifies that an input field should be disabled
