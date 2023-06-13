@@ -23,18 +23,18 @@ git init - initialize Git repository
 git add - save changes (git add index.html i.e or git add . (save everything))
 git reset - unstage changes
 git commit -m 'message' - commit the changes
-git log - log of changes
+git log - log of commits
 git checkout [commit id] - go back to that commit
-git remote add origin - connect local repository to the one on GitHub
-git push -u origin main - push commits to the GitHub
+git remote add origin [github SSH/HTTPS] - connect local repository to the one on GitHub
+git push -u origin [branch] - push commits to the GitHub
 git checkout -b 'name' - create 'name' branch
 git checkout 'name' - switch to a branch
 git branch -d 'name' - delete 'name' branch
 git push origin --delete 'name' - delete remote 'name' branch 
 git branch - show branches
-git merge 'branch name to merge'
+git merge 'branch name to merge into the current one'
 pull request is request for changes on GitHub
-git pull origin main - pull the changes from the GitHub
+git pull origin [branch] - pull the changes from the GitHub
 git status - check the status of the repository
 all the others linux commands such as cd, ls, touch, rm, and such
 
@@ -486,6 +486,7 @@ Forms:
         <input type="week"> - allows the user to select a week and year
 
     Input restrictions:
+    
         checked	- Specifies that an input field should be pre-selected when the page loads (for type="checkbox" or type="radio")
 
         disabled - Specifies that an input field should be disabled
