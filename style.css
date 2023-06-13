@@ -67,4 +67,7 @@ main {
 footer {
     background-color: #0d1b2a;
     color: #e0e1dd;
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
