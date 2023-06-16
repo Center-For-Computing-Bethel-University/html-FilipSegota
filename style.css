@@ -63,11 +63,12 @@ nav {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    display: flex;
+    align-items: center;
 }
 
 .menu-list-item {
-    float: left;
-    border-right: 1px solid #1b263b
+    border-right: 1px solid #1b263b;
 }
 
 .menu-list-item a {
@@ -80,6 +81,7 @@ nav {
 
 .menu-list-item a:hover {
     background-color: #1b263b;
+    transition: 0.3s ease;
 }
 
 .menu-link-active {
@@ -88,6 +90,17 @@ nav {
     color: #e0e1dd;
     display: block;
     padding: 1.2vh 2.4vw;
+}
+
+.menu-list-item-dropdown {
+    list-style-type: upper-roman;
+    display: none;
+    position: absolute;
+}
+
+.menu-list-item-works:hover .menu-list-item-dropdown {
+    display: block;
+    background-color: #1b263b;
 }
 
 main {
