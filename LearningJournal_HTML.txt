@@ -22,6 +22,7 @@ I'll be using a lot of Git commands that are explained in this video:
 git init - initialize Git repository
 git add - save changes (git add index.html i.e or git add . (save everything))
 git reset - unstage changes
+git reset --hard [commit id] - revert back to that commit
 git commit -m 'message' - commit the changes
 git log - log of commits
 git checkout [commit id] - go back to that commit
