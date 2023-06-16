@@ -25,7 +25,64 @@
         </nav>
 
         <main>
+            <div class="main-contact">
+                <!-- <table class="main-contact-table">
+                    <tr>
+                        <td>Name:</td>
+                        <td>Filip</td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td>asd-asd@asd.asd</td>
+                    </tr>
+                </table> -->
+                <form action="" class="main-contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br>
 
+                    <fieldset>
+                        <legend>Gender:</legend>
+
+                        <input type="radio" name="gender" id="male" value="male">
+                        <label for="male">Male</label>
+
+                        <input type="radio" name="gender" id="female" value="female">
+                        <label for="female">Female</label>
+                    </fieldset>
+                    <br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <br>
+
+                    <fieldset>
+                        <legend>Works:</legend>
+
+                        <input type="checkbox" name="work1" id="work1" value="Work1">
+                        <label for="work1">Work 1</label><br>
+
+                        <input type="checkbox" name="work2" id="work2" value="Work2">
+                        <label for="work2">Work 2</label><br>
+
+                        <input type="checkbox" name="work3" id="work3" value="Work3">
+                        <label for="work3">Work 3</label><br>
+
+                        <input type="checkbox" name="work4" id="work4" value="Work4">
+                        <label for="work4">Work 4</label><br>
+
+                        <input type="checkbox" name="work5" id="work5" value="Work5">
+                        <label for="work5">Work 5</label>
+                    </fieldset>
+                    <br>
+
+                    <label for="feedback">Feedback:</label>
+                    <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea><br>
+
+                    <input type="hidden" name="type" id="type" value="Feedback">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </form>
+            </div>
         </main>
 
         <footer>

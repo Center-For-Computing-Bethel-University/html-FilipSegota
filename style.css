@@ -124,6 +124,10 @@ main {
     border-radius: 30px;
 }
 
+.main-contact {
+    color: #0d1b2a;
+}
+
 footer {
     background-color: #0d1b2a;
     opacity: 1;
