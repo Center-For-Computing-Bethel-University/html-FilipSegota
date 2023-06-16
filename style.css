@@ -104,8 +104,16 @@ nav {
 }
 
 .menu-link-dropdown {
-    display: block;
     cursor: default;
+}
+
+.menu-link-dropdown-active a {
+    background-color: #1b263b;
+}
+
+.menu-list-item-dropdown-active a {
+    background-color: #1b263b;
+    pointer-events: none;
 }
 
 main {
