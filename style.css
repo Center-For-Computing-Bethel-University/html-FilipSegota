@@ -119,13 +119,14 @@ nav {
 
 .menu-list-item-dropdown a {
     background-color: #0d1b2a;
+    border-right: 1px solid #1b263b;
+    border-bottom: 1px solid #1b263b;
 }
 
 .menu-list-item-works:hover .menu-list-item-dropdown {
     display: block;
     background-color: #1b263b;
 }
-
 
 .menu-link-dropdown {
     cursor: default;
@@ -136,16 +137,22 @@ nav {
 }
 
 .menu-works {
+    background-color: #0d1b2a;
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.menu-works li {
+    border-right: 1px solid #1b263b;
+    border-bottom: 1px solid #1b263b;
 }
 
 .menu-works a {
     text-decoration: none;
-    background-color: #415a77;
+    background-color: #0d1b2a;
     color: #e0e1dd;
     display: block;
     padding: 1.2vh 2.4vw;
