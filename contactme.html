@@ -76,62 +76,71 @@
                         <td>asd-asd@asd.asd</td>
                     </tr>
                 </table> -->
-                <form action="" class="main-contact-form">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name"><br>
+                <fieldset class="main-fieldset">
+                    <legend>Contact Me:</legend>
+                    <form action="" class="main-contact-form">
+                        <fieldset class="form-fieldset">
+                            <legend>Info:</legend>
 
-                    <fieldset>
-                        <legend>Gender:</legend>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name">
 
-                        <input type="radio" name="gender" id="male" value="male">
-                        <label for="male">Male</label>
+                            <fieldset>
+                                <legend>Gender:</legend>
 
-                        <input type="radio" name="gender" id="female" value="female">
-                        <label for="female">Female</label>
-                    </fieldset>
-                    <br>
+                                <input type="radio" name="gender" id="male" value="male">
+                                <label for="male">Male</label>
 
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email">
-                    <br>
+                                <input type="radio" name="gender" id="female" value="female">
+                                <label for="female">Female</label>
+                            </fieldset>
 
-                    <fieldset>
-                        <legend>Works:</legend>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email">
+                        </fieldset>
 
-                        <input type="checkbox" name="work1" id="work1" value="work1">
-                        <label for="work1">Work 1</label><br>
+                        <fieldset class="form-fieldset">
+                            <legend>Works:</legend>
 
-                        <input type="checkbox" name="work2" id="work2" value="work2">
-                        <label for="work2">Work 2</label><br>
+                            <input type="checkbox" name="work1" id="work1" value="work1">
+                            <label for="work1">Work 1</label><br>
 
-                        <input type="checkbox" name="work3" id="work3" value="work3">
-                        <label for="work3">Work 3</label><br>
+                            <input type="checkbox" name="work2" id="work2" value="work2">
+                            <label for="work2">Work 2</label><br>
 
-                        <input type="checkbox" name="work4" id="work4" value="work4">
-                        <label for="work4">Work 4</label><br>
+                            <input type="checkbox" name="work3" id="work3" value="work3">
+                            <label for="work3">Work 3</label><br>
 
-                        <input type="checkbox" name="work5" id="work5" value="work5">
-                        <label for="work5">Work 5</label>
-                    </fieldset>
-                    <br>
+                            <input type="checkbox" name="work4" id="work4" value="work4">
+                            <label for="work4">Work 4</label><br>
 
-                    <label for="">Type of inquiry:</label>
-                    <select id="inquiry" name="inquiry">
-                        <option value="feedback">Feedback</option>
-                        <option value="question">Question</option>
-                        <option value="comment">Comment</option>
-                        <option value="complaint">Concern</option>
-                    </select>
-                    <br>
+                            <input type="checkbox" name="work5" id="work5" value="work5">
+                            <label for="work5">Work 5</label>
+                        </fieldset>
 
-                    <label for="feedback">Feedback:</label>
-                    <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea><br>
+                        <fieldset class="form-fieldset">
+                            <legend>Inquiry:</legend>
 
-                    <input type="hidden" name="type" id="type" value="Feedback">
+                            <label for="">Type of inquiry:</label>
+                            <select id="inquiry" name="inquiry">
+                                <option value="feedback">Feedback</option>
+                                <option value="question">Question</option>
+                                <option value="comment">Comment</option>
+                                <option value="complaint">Concern</option>
+                            </select>
 
-                    <input type="submit" value="Submit">
-                    <input type="reset" value="Reset">
-                </form>
+                            <div class="form-fieldset-label">
+                                <label for="feedback">Feedback:</label>
+                                <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+                            </div>
+                        </fieldset>
+
+                        <input type="hidden" name="type" id="type" value="Feedback">
+
+                        <input type="submit" value="Submit" class="main-contact-form-button">
+                        <input type="reset" value="Reset" class="main-contact-form-button">
+                    </form>
+                </fieldset>
             </div>
         </main>
 

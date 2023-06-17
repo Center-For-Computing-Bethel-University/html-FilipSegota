@@ -23,19 +23,24 @@ html {
     background-color: #0d1b2a;
 }
 
+.card::-webkit-scrollbar-track-piece {
+    -webkit-border-radius: 30px;
+}
+
 body {
     height: 100vh;
     height: 100svh;
     margin: 0;
     padding: 0;
     font-family: Helvetica;
+    position: relative;
 }
 
 .grid-container {
     position: relative;
     height: 100%;
     display: grid;
-    grid-template-rows: 2fr 0.5fr 10fr;
+    grid-template-rows: 2fr 0.5fr 10fr auto;
 }
 
 header {
@@ -49,7 +54,7 @@ header {
 }
 
 .header-title {
-    font-size: 300%;
+    font-size: 3rem;
 }
 
 nav {
@@ -59,7 +64,7 @@ nav {
 }
 
 .menu-title {
-    font-size: 100%;
+    font-size: 1rem;
 }
 
 .menu-title-arrow {
@@ -67,7 +72,7 @@ nav {
 }
 
 .menu-subtitle {
-    font-size: 80%;
+    font-size: 0.8rem;
 }
 
 .menu-list {
@@ -89,7 +94,7 @@ nav {
     background-color: #415a77;
     color: #e0e1dd;
     display: block;
-    padding: 1.2vh 2.4vw;
+    padding: 1em 2em;
 }
 
 .menu-list-item a:hover {
@@ -102,7 +107,7 @@ nav {
     pointer-events: none;
     color: #e0e1dd;
     display: block;
-    padding: 1.2vh 2.4vw;
+    padding: 1em 2em;
 }
 
 .menu-list-item-dropdown {
@@ -155,7 +160,7 @@ nav {
     background-color: #0d1b2a;
     color: #e0e1dd;
     display: block;
-    padding: 1.2vh 2.4vw;
+    padding: 1em 2em;
 }
 
 .menu-list-item-dropdown-active a {
@@ -174,7 +179,7 @@ main {
 }
 
 .main-cards {
-    margin: 20px 20px;
+    margin: 1.5rem 1.5rem;
     display: grid;
     gap: 2em;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -196,28 +201,60 @@ main {
 }
 
 .card-title {
-    font-size: 130%;
-    margin: 10px;
+    font-size: 1.3em;
+    margin: 1rem;
 }
 
 .card-p {
-    margin: 10px;
+    margin: 0.5rem;
 }
 
 .card-img {
     height: 40%;
     width: 40%;
-    margin-top: 20px;
+    margin-top: 1.5rem;
     border-radius: 30px;
 }
 
-.main-contact {
+.main-contact-form {
     color: #0d1b2a;
 }
 
+.main-contact-form>* {
+    margin: 1rem;
+}
+
+.main-fieldset {
+    margin: 1.5rem;
+    border-color: #415a77;
+    border-style: solid;
+}
+
+.form-fieldset {
+    border-color: #415a77;
+    border-style: dashed;
+}
+
+.form-fieldset>* {
+    margin: 0.5rem;
+}
+
+.form-fieldset-label {
+    display: flex;
+    align-items: top;
+}
+
+.form-fieldset-label>* {
+    margin: 1rem;
+}
+
+.main-contact-form-button {
+    width: 7em;
+    height: 3em;
+}
+
 footer {
-    position: fixed;
-    left: 0;
+    position: sticky;
     bottom: 0;
     width: 100%;
     height: 2rem;
