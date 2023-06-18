@@ -39,12 +39,13 @@ body {
 
 .grid-container {
     position: relative;
-    height: 100%;
     display: grid;
-    grid-template-rows: 2fr 0.5fr 10fr auto;
+    height: 100%;
+    grid-template-rows: 10rem 0.5fr 10fr 2rem;
 }
 
 header {
+    height: 10rem;
     background-color: #0d1b2a;
     opacity: 1;
     background: repeating-linear-gradient(45deg, #1b263b, #1b263b 11px, #0d1b2a 11px, #0d1b2a 55px);
@@ -179,6 +180,7 @@ nav {
 main {
     background-color: #e0e1dd;
     color: #0d1b2a;
+    padding-bottom: 2rem;
 }
 
 .main-cards {
@@ -258,6 +260,7 @@ main {
 
 footer {
     position: fixed;
+    height: 1.5rem;
     bottom: 0;
     left: 0;
     width: 100%;
