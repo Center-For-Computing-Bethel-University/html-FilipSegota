@@ -1,5 +1,15 @@
+<!--
+    Author: Filip Segota
+    Class: CSC261, Fall 2023
+    Assignment: HTML Assignment
+    File: works.html
+-->
+<!--Document declaration-->
 <!DOCTYPE html>
+<!--Language declaration-->
 <html lang="en">
+
+<!--Metadata-->
 
 <head>
     <meta charset="UTF-8">
@@ -8,18 +18,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
+<!--Body of a page-->
+
 <body>
+    <!--Grid layout-->
     <div class="grid-container">
+        <!--Header including page title-->
         <header>
             <h1 class="header-title">Works</h1>
         </header>
 
+        <!--Navigation menu using unordered list-->
         <nav>
             <ul class="menu-list">
                 <li class="menu-list-item"><a href="index.html">
                         <h2 class="menu-title">Home</h2>
                     </a></li>
                 <li class="menu-list-item menu-list-item-works">
+                    <!--Active class is for the current tab-->
                     <div class="menu-link-dropdown menu-link-dropdown-active">
                         <a>
                             <h2 class="menu-title">Works<span class="menu-title-arrow">&#9660</span></h2>
@@ -36,6 +52,7 @@
                         <h2 class="menu-title">Contact Me</h2>
                     </a></li>
             </ul>
+            <!--Dropdown menu created into menu bar for Works page-->
             <ul class="menu-works">
                 <li class="menu-list-item-dropdown-active"><a href="works.html">
                         <h3 class="menu-subtitle">Philosophy 1</h3>
@@ -64,8 +81,11 @@
             </ul>
         </nav>
 
+        <!--Main section of the page-->
         <main>
+            <!--Add JavaScript to connect to Contact Me Form and show works-->
             <div class="main-cards">
+                <!--Individual card class and content inside of it. Change later-->
                 <article class="card">
                     <img src="pictures/sample.jpg" alt="sample" class="card-img">
                     <h4 class="card-title"><b>Work 1</b></h4>
@@ -74,6 +94,7 @@
                         qui,
                     </p>
                 </article>
+                <!--Individual card class and content inside of it. Change later-->
                 <article class="card">
                     <img src="pictures/sample.jpg" alt="sample" class="card-img">
                     <h4 class="card-title"><b>Work 2</b></h4>
@@ -90,6 +111,7 @@
                         qui,
                     </p>
                 </article>
+                <!--Individual card class and content inside of it. Change later-->
                 <article class="card">
                     <img src="pictures/sample.jpg" alt="sample" class="card-img">
                     <h4 class="card-title"><b>Work 3</b></h4>
@@ -98,6 +120,7 @@
                         qui,
                     </p>
                 </article>
+                <!--Individual card class and content inside of it. Change later-->
                 <article class="card">
                     <img src="pictures/sample.jpg" alt="sample" class="card-img">
                     <h4 class="card-title"><b>Work 4</b></h4>
@@ -106,6 +129,7 @@
                         qui,
                     </p>
                 </article>
+                <!--Individual card class and content inside of it. Change later-->
                 <article class="card">
                     <img src="pictures/sample.jpg" alt="sample" class="card-img">
                     <h4 class="card-title"><b>Work 5</b></h4>
@@ -117,6 +141,7 @@
             </div>
         </main>
 
+        <!--Footer section-->
         <footer>
             Filip Segota 2023
         </footer>
