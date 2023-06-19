@@ -4,6 +4,8 @@
     Assignment: HTML Assignment
     File: index.html
 */
+/*Add media queries*/
+
 html {
     scrollbar-color: #415a77 #1b263b;
 }
@@ -186,7 +188,7 @@ nav {
 main {
     background-color: #e0e1dd;
     color: #0d1b2a;
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
 }
 
 .main-cards {
@@ -262,6 +264,45 @@ main {
 .main-contact-form-button {
     width: 7em;
     height: 3em;
+}
+
+.about-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.about-main-table {
+    color: #0d1b2a;
+    border: 1px solid #415a77;
+    border-collapse: collapse;
+    width: 60ch;
+}
+
+.about-main-table th,
+.about-main-table td {
+    border: 1px solid #415a77;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.about-main-table th {
+    text-align: right;
+}
+
+.table-image-col {
+    text-align: center;
+    width: 40%;
+}
+
+.about-main-table-img {
+    height: 12rem;
+    width: 80%;
+}
+
+.table-story-col {
+    text-align: center !important;
 }
 
 footer {
