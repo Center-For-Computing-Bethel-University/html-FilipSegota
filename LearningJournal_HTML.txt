@@ -1,5 +1,33 @@
 HTML Learning Journal
 
+5 things without referring to journal:
+    Website consists of elements such as <body>, <head>, <main>, <nav>, and so on.
+    HTML is case insensitive, but it's better if elements are written in all lowercase (with couple exceptions, such as DOCTYPE).
+    There are different levels of headings, h1...h6. This builds a hierarchy and outline of a website. Something such as reference page in books.
+    Head includes metadata of a website, such as language, author, and such.
+    <p> element is a paragraph element (inline).
+
+5 things with referring to journal:
+    <title> tag is used to set the title of a website. This name is displayed in the tab.
+    <a href="link"> is used for links.
+    There can be multiple values for a target of a link:
+        _self - Default. Opens the document in the same window/tab as it was clicked
+        _blank - Opens the document in a new window or tab
+        _parent - Opens the document in the parent frame
+        _top - Opens the document in the full body of the window
+    It's a good standard to close all HTML elements (There's couple that doesn't need to)
+    <table> creates table with <tr> - table row, <td> - table data, and <th> - table header
+
+5 new things I'm aware I can learn:
+    Learn about professional comments. What is a good practice in writing comments?
+    Class naming. What are good standards for writing clean and readable classes?
+    Whether classes should be used for every element?
+    Work with different form inputs, such as password or file.
+    Learning more about metadata and how can the <head> be improved
+
+Professional vs. Beginner
+    Professionals perform well because of all the tools learned and learning what's important and what's not. There are also a lot of shortcuts available for writing the code faster. Professionals really understand the code and what each element does, while beginners might just copy and paste the part of the code that they need. Workflow is different between professional and beginner. While beginners might start writing code right away, for professionals, there might be couple major steps before even starting with the code.
+
 1) Git and GitHub
 Before I start learning HTML, I wanted to learn a little bit about Git and GitHub. I used two youtube videos for this:
 

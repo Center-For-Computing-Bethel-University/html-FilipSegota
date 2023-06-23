@@ -1,0 +1,36 @@
+Learning Learning Journal
+
+There are couple different reasons why want to track our learning progress.
+    We can go back and revise learned things
+    See what type of learning works best for us
+    Develop growth mindset
+    Document the learning process for others
+    We don't waste time trying to learn something all over against
+
+The way I track my learning progress here is by keeping a earning journal. Besides that, there are also other methods of keeping track of learning:
+    verbal
+    hand-written
+    electronic diary
+        document
+        web sites
+
+Which one we decide to use will depend on couple of factors, one of which are our goals, our methods, the reason for learning, etc.
+
+For each learning journal assignment, I will write down 5 things without referring the journal, 5 things with a journal, and 5 new things that I'm aware of that I can learn. Also, I will write how the coding practice might differ between professionals and beginners.
+
+When we try to focus our learning, there are couple of things that can guide our focus during learning. Type of learning can depend on:
+    Whether we're trying to memorize the content
+    Learn a rule
+    Make a habit
+    etc.
+
+Another step is also learning about and how to use technology. We can either figure it out ourselves or we can rely on experts. Which one we choose will depend on difficulty, correctness, or durability. Sometimes, the importance of learning will require of us to find an expert. There are couple ways how to find an expert.
+
+Bloom's taxonomy - https://en.wikipedia.org/wiki/Bloom%27s_taxonomy
+Learning objectives can be classified in hierarchical model, called Bloom's taxonomy. It starts with the most basic and moves on to the more complicated. The levels are:
+    Knowledge - involves recognizing or remembering facts, terms, basic concepts, or answers without necessarily understanding what they mean.
+    Comprehension - involves demonstrating an understanding of facts and ideas by organizing, summarizing, translating, generalizing, giving descriptions, and stating the main ideas.
+    Application - Application involves using acquired knowledge to solve problems in new situations. This involves applying acquired knowledge, facts, techniques and rules.
+    Analysis - Analysis involves examining and breaking information into component parts, determining how the parts relate to one another, identifying motives or causes, making inferences, and finding evidence to support generalizations.
+    Synthesis - Synthesis involves building a structure or pattern from diverse elements; it also refers to the act of putting parts together to form a whole or bringing pieces of information together to form a new meaning.
+    Evaluation - Evaluation involves presenting and defending opinions by making judgments about information, the validity of ideas, or quality of work based on a set of criteria.
