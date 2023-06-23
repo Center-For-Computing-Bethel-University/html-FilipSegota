@@ -26,7 +26,7 @@ HTML Learning Journal
     Learning more about metadata and how can the <head> be improved
 
 Professional vs. Beginner
-    Professionals perform well because of all the tools learned and learning what's important and what's not. There are also a lot of shortcuts available for writing the code faster. Professionals really understand the code and what each element does, while beginners might just copy and paste the part of the code that they need. Workflow is different between professional and beginner. While beginners might start writing code right away, for professionals, there might be couple major steps before even starting with the code.
+    Professionals perform well because of all the tools learned and learning what's important and what's not. There are also a lot of shortcuts available for writing the code faster. Professionals really understand the code and what each element does, while beginners might just copy and paste the part of the code that they need. Workflow is different between professional and beginner. While beginners might start writing code right away, for professionals, there might be couple major steps before even starting with the code. 
 
 1) Git and GitHub
 Before I start learning HTML, I wanted to learn a little bit about Git and GitHub. I used two youtube videos for this:

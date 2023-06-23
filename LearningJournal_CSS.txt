@@ -1,5 +1,30 @@
 CSS Learning Journal
 
+5 things without referring to journal
+    There are multiple specifiers, such as .clasname, #idname, element, and so on
+    We can set background color with background-color:
+    font-family is used to setting font
+    font-size is used for setting size of letters
+    colors is used to set color of a text
+
+5 things with referring to journal
+    We can use css internal, inline, and external
+    Pseudo-classes - A pseudo-class allows you to select elements based on some special state of the element.
+    :hover - Matches an element that the mouse cursor is currently hovering over. This is typically used for buttons and links but can be applied to any type of element.
+    Border can have many different styles, such as dotted, dashed, solid, etc.
+    Some of the ways to define colors are rgb, hex, hsl
+
+5 things I'm aware I can use
+    Learning a thing such as bootstrap
+    Learning sass
+    Learning how to write better code and comments
+    Learning more about grid and flex layouts
+    Learning about more css frameworks
+
+Professional vs. beginner
+    Professional know how to write readable code. Also, knowing when to use classes and when not to. Sometimes, professionals create a style such as background color and then put elements they want with that background color in that class instead of other way around. That can make code even more readable. Professional also know exactly when to use the right things for right purposes. This comes with experience.
+
+
 "Modern CSS-Master the Key Concepts of CSS for Modern Web Development"
 
 1. Introduction to CSS
@@ -648,3 +673,7 @@ The basic types of selectors are:
 
         Clearing floats:
             The clear property can be used on an element to indicate that it can't be alongside a floated element in a given direction. The clear property can be none (the default), left, right, both, inline-start, or inline-end. If an element is cleared in a given direction, and there is a floated element there, the element will be moved so that it is below the floated element.
+
+
+
+Webkit - Webkit is a web browser rendering engine used by Safari and Chrome (among others, but these are the popular ones).
